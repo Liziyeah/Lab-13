@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="module" src="./src/main.js" defer></script>
+        <title>Todo App</title>
+    </head>
+    <body>
+        <header>
+            <h1>Task Manager</h1>
+        </header>
+        <main>
+            <section>
+                <form id="task-creator">
+                    <textarea name="content" rows="3"></textarea>
+                    <button>Publicar</button>
+                </form>
+            </section>
+            <section>
+                <div>
+                    <h2>To Do</h2>
+                    <div id="todo"></div>
+                </div>
+                <div>
+                    <h2>Doing</h2>
+                    <div id="doing"></div>
+                </div>
+                <div>
+                    <h2>Done</h2>
+                    <div id="done"></div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
