@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+}
+
+section:nth-child(2) {
+    display: flex;
+}
+
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilos para las listas de tareas */
+div {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+div[id^='todo'],
+div[id^='doing'],
+div[id^='done'] {
+    min-height: 100px;
+    border: 2px dashed #ccc;
+}
+
+div[id^='todo'] {
+    border-color: #ffcccb;
+}
+
+div[id^='doing'] {
+    border-color: #ffd700;
+}
+
+div[id^='done'] {
+    border-color: #90ee90;
+}
+
+/* Estilos para las tarjetas de tareas */
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #f9f9f9;
+}
